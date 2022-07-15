@@ -1,0 +1,35 @@
+.logo {
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.pw {
+  background-color: yellow;
+  width: 7%;
+  border: double 10px;
+  text-align: center;
+  margin-left: 40px;
+}
+.przyciski {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finish {
+  font-size: 38px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+
+.hr {
+  color: blue;
+  width: 35%;
+}
+#form {
+  padding: 5px 5px;
+}

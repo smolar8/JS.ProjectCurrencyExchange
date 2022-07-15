@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>currency exchange</title>
+  </head>
+  <body>
+    <nav class="logo">
+      <img src="arbuz.png" alt="" />
+      <p class="pw">Przelicznik walut</p>
+    </nav>
+
+    <form name="przelicz" id="form">
+      <input type="number" name="kwota" id="userInput" placeholder="Kwota" />
+      <select name="zczego" id="wyborWaluty"></select>
+      <input type="submit" value="przelicz" />
+
+      <hr class="hr" />
+    </form>
+    <p><span class="finish" id="wynik">0</span></p>
+    <script type="module" src="index.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
